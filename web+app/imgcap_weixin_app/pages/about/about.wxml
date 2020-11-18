@@ -1,0 +1,14 @@
+<view class="content">
+<image class='background' src="../images/iair.jpg" style="opacity:{{0.3}}" mode="aspectFit"></image>
+<view class="hr"></view>
+<view class="head">
+  <view>About</view>
+  <view class="right"></view>
+</view>
+<view class="container">
+    <view class="title">{{title}}</view>
+    <view class="text-box" scroll-y="true" scroll-top="{{scrollTop}}">
+      <text>{{ text1 }}</text>
+    </view>
+</view>
+</view>

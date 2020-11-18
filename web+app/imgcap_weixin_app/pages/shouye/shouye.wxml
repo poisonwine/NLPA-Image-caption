@@ -1,0 +1,11 @@
+<view class="content">
+  <view class="hr"></view>
+  <view class="head">
+    <view>首页</view>
+    <view class="right"></view>
+  </view>
+  <import src="../template/template.wxml"/>
+  <view class="list">
+    <template is="shouye_t" data="{{array}}"/>
+  </view>
+</view>

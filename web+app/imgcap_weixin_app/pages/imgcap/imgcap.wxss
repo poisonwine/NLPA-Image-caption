@@ -1,0 +1,59 @@
+page{
+  background: #f4f4f4;
+  min-height: 100%;
+}
+
+.container{
+  background: #f4f4f4;
+  min-height: 100%;
+  padding-top: 30rpx;
+}
+.fb-type{
+  height: 104rpx;
+  width: 700rpx;
+  background: #fff;
+  margin-bottom: 20rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+.fb-type .type-label{
+  height: 36rpx;
+  flex: 100%;
+  color: #333;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+
+.fb-type .type-icon{
+  height: 36rpx;
+  width: 36rpx;
+}
+
+.hr{
+  height: 15px;
+  background-color: #cccccc;
+  margin-top:15px;
+  opacity: 0.2; 
+}
+button{
+  background-color: #fff;
+}
+.imagesize{
+  display:flex;
+  height: 300px;
+  justify-content: center;        
+  align-items:center;
+}
+.imagesize image { 
+   width:600rpx;
+   height:600rpx;
+}
+.cap{
+  font-size: 50rpx;
+  text-align: center;
+  display: block;
+}

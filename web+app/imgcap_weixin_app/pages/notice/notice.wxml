@@ -1,0 +1,5 @@
+<view class="content">
+  <view class='imagesize'>
+    <image src="../images/666.jpg" mode="aspectFill" class='in-image'></image>
+  </view>
+</view>

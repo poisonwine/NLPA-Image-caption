@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/imgcap/imgcap",
+    "pages/shouye/shouye",
+    "pages/notice/notice",
+    "pages/about/about",
+    "pages/component/cropper/cropper"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Image Caption",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#999999",
+    "list": [
+      {
+        "pagePath": "pages/imgcap/imgcap",
+        "text": "IMGCAP",
+        "iconPath": "pages/images/berry.jpg",
+        "selectedIconPath": "pages/images/berryset.jpg"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "ABOUT",
+        "iconPath": "pages/images/meico.jpg",
+        "selectedIconPath": "pages/images/meicoset.jpg"
+      }
+    ]
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

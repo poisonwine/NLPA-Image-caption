@@ -1,0 +1,22 @@
+<view class="container">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      <view class="fb-type">
+        <view class="type-label">{{array[index]}}</view>
+        <image class="type-icon" src="http://yanxuan.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/pickerArrow-a8b918f05f.png"></image>
+      </view>
+    </view>
+  </picker>
+  <view class="hr"></view>
+  <button bindtap='chooseImageTap'>上传图片</button>
+  <view class="hr"></view>
+
+  <view class='imagesize'>
+    <image src="{{ imgurl }}" mode="aspectFill"></image>
+  </view>
+  
+  <view class="hr"></view>
+  <view class="text-box" scroll-y="true" scroll-top="{{scrollTop}}">
+    <text class="cap">{{ caption }}</text>
+  </view>
+</view>

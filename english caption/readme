@@ -1,0 +1,6 @@
+create_input_files.py  :  创建数据集（HDFS&json）
+train.py  :  模型训练
+save_model_dict  ：   保存模型参数
+eval.py  :  测试集上评估
+caption.py  :  图像描述实现
+

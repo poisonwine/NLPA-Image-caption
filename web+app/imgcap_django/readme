@@ -1,0 +1,5 @@
+在此目录下运行如下命令即可启动服务器
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver 0.0.0.0:8000 
+
